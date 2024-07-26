@@ -1,0 +1,118 @@
+:root {
+    --large-default-padding: 6.5em;
+    --medium-default-padding: 4em;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: roboto, sans-serif, Arial, Helvetica, sans-serif;
+}
+
+#principal{
+    width: 64em;
+    margin: 1.25em auto;
+}
+
+h1, h2{
+    font-family:  Viaoda Libre, sans-serif;
+    font-weight: normal;
+}
+
+.header-top{
+    background-color: #162028;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logotipo{
+    color: white;
+    margin: .5em 0 .5em 4.4375em;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 1em;
+    margin: 1em 1em 0 0;
+}
+
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    transition: color .3s linear;
+}
+
+.header-nav a:hover{
+    color: white;
+}
+
+.portfolio{
+    text-align: center;
+    padding: 0 var(--medium-default-padding) var(--large-default-padding);
+}
+
+.portfolio h1{
+    font-size: 2.5em;
+    color: #252525;
+}
+
+.portfolio p{
+    color: #7e7e7e;
+    font-size: 1em;
+    line-height: 2;
+}
+
+.models{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    color: #555;
+    margin-bottom: 4em;
+}
+
+.models-card{
+    text-align: center;
+}
+
+.models-title{
+    text-transform: uppercase;
+    color: #77787c;
+    font-weight: bold;
+}
+
+.sobre{
+    background-color: #003d52;
+    background-image: url(/imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: var(--large-default-padding);
+    color: white;
+}
+
+.sobre h2{
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.about p {
+    line-height: 1.5;
+    width: 70%;
+}
+
+footer{
+    background-color: #0b171f;
+    color: #6f8597;
+    padding: .6em;
+    text-align: center;
+    font-size: .75em;
+    letter-spacing: .3em;
+}
